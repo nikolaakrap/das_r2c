@@ -1,0 +1,4 @@
+source;share/das_r2c/local_setup.bash
+source;share/das_r2c/local_setup.dsv
+source;share/das_r2c/local_setup.sh
+source;share/das_r2c/local_setup.zsh
