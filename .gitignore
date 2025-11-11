@@ -1,0 +1,21 @@
+# Ignore the .vscode directory
+.vscode/
+
+# Ignore build directories
+/build/
+/install/
+/log/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore ROS 2 workspace build artifacts
+*.log
+*.d
+*.a
+*.o
+
+# Ignore environment files
+.env
