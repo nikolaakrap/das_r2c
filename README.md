@@ -97,11 +97,13 @@ ros2 control list_controllers
 ```
 
 **BE CAREFUL**
+
 It is not possible for both the forward\_position\_controller and the joint\_trajectory\_controller. If you want to, for example, deactivate the forward\_position\_controller and activate the joint\_trajectory\_controller run the following command in a separate terminal window:
 ```bash
 ros2 control switch_controllers --activate joint_trajectory_position_controller --deactivate forward_position_controller
 ```
 Take not of this before publishing commands to the controllers.
+s
 
 To publish commands to the forward\_position\_controller run the command:
 ```bash
