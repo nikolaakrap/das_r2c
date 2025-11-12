@@ -27,22 +27,6 @@ Install it with:
 sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers
 ```
 
-### 4. **Additional Dependencies**
-
-#### **ROS Dependencies (via rosdep):**
-Before building the workspace, ensure all the dependencies are installed:
-```bash
-rosdep install --from-paths src --ignore-src -r -y
-```
-
-### 5. **Development Tools**
-
-#### **colcon**
-A build tool used in ROS 2 workspaces. Install it with:
-```bash
-sudo apt install python3-colcon-common-extensions
-```
-
 
 ## Creating the Project
 
@@ -103,7 +87,7 @@ It is not possible for both the forward\_position\_controller and the joint\_tra
 ros2 control switch_controllers --activate joint_trajectory_position_controller --deactivate forward_position_controller
 ```
 Take not of this before publishing commands to the controllers.
-s
+
 
 To publish commands to the forward\_position\_controller run the command:
 ```bash
