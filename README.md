@@ -1,4 +1,4 @@
-# Mock system of Fanuc CR-35iA using ros2_control
+# Fanuc CR-35iA mock system using ros2_control
 This repository provides a mock system of a Fanuc CR-35iA robot made possible using the ros2_control framework.
 
 ## Prerequisites
